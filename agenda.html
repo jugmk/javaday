@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Java Day == 23 Feb 2013</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        padding-top: 60px;
+      }
+
+      label {
+        margin-right: 10px;
+      }
+
+      #right {
+        padding-left: 40px;
+        padding-top: 60px;
+      }
+
+      #talk-details {
+        padding-bottom: 20px;
+      }
+
+      .table tbody tr:hover td,.table tbody tr:hover th {
+        background-color: #ffa;
+        cursor: pointer;
+      }
+
+      .details {
+        display: none;
+      }
+
+      a.normal {
+        color: #333333;
+      }
+
+      img.photo {
+        width: 120px;
+        height: 120px;
+      }
+
+      img.banner {
+        width: 160px;
+      }
+
+      #modal-speaker {
+        color: #666;
+      }
+
+      #info {
+        width: 800px;
+        left: 40%;
+      }
+
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+    href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+    href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse"
+            data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+              class="icon-bar"></span> <span class="icon-bar"></span>
+          </a> <a id="title" class="brand" href="#">Java Day == 23 Feb 2013</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+          <a id="title" class="brand" href="http://jug.mk">By JUG.MK</a>
+          <!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="content">
+
+      <div class="row">
+        <div class="span12">
+          <div class="hero-unit">
+            <h1>Java Day == 23 Feb 2013</h1>
+            <h3>Skopje Fair, 10:00 - 16:00</h3>
+            <p>
+              <a class="btn btn-primary btn-large"> Register </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="span9">
+
+          <div class="row">
+            <div class="span9"></div>
+          </div>
+
+          <div class="row">
+            <div class="span9">
+              <h1>Agenda - Long Talks</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span9">
+              <table class="table table-hover">
+                <tr>
+                  <th>Time</th>
+                  <th>Presentation</th>
+                  <th>Speaker</th>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>Clean and type-safe SQL queries with QueryDSL</span>
+                    <span class="details">
+                      Querydsl is a framework which enables the construction of type-safe SQL-like queries for
+                      multiple backends including JPA, JDO and SQL in Java.
+                    </span>
+                  </td>
+                  <td class="speaker">
+                    <span>Mite Mitreski</span>
+                    <span data-photos="mitemitreski.jpg" class="details">
+                    Mite Mitreski currently works at Netcetera and has experience in various open source technologies,
+                    with primary focus on Java and JVM. He has also worked as a Oracle certifed java trainer in local
+                    educational center and  as custom solutions developer at GenrepSoft in the past.
+                    Deeply involved in activities sounding Java User Group Macedonia, free and open source software,
+                    open data formats and the open web.
+                    Occasonaly he writes at his <a href="http://blog.mitemitreski.com">blog</a> and <a
+                      href="https://twitter.com/mitemitreski" >twitter  @mitemitreski</a>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>Corporative solutions with
+                      JTAPI (Advanced JTAPI) – CTI, Call Managers  Dialers</span>
+                    <span class="details">TBD</span>
+                  </td>
+                  <td class="speaker">
+                    <span>Branislav Bajlovski + 1</span>
+                    <span class="details">TBD</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>Visualize with D3.js</span>
+                    <span class="details"> Bring life to your data, and create interactive visual JavaScript
+                      applications with d3.js. </span>
+                  <td class="speaker">
+                    <span>Panche Chavkovski</span>
+                     <span data-photos="pance.jpg" class="details">
+                     Pance Cavkovski is a software engineer working at Netcetera in Skopje, Macedonia. As part of the
+                     team, he has specialized working in Java, Javascript, Flex/ActionScript and .NET technologies.
+
+                    The scopes of the projects he has worked so far have varied from CAD application, simulations and
+                    visualizations to finance applications, distributed web systems and infrastructures. He is known for the CodeFu system which he redesigned, developed in most and is one of the head administrators.
+                   As of 2009 he is an active member of the Macedonian Java User Group.
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>ClojureScript</span>
+                    <span class="details">TBD</span>
+                  </td>
+                  <td class="speaker">
+                    <span>Dragan Sahpaski</span>
+                    <span class="details">TBD</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>SQL vs NoSQL - бази на екстази</span>
+                    <span class="details">SQL vs NoSQL - What would you choose? - TBD</span>
+                  </td>
+                  <td class="speaker">
+                    <span>Ice Penov + Nikolche Mihajlovski</span>
+                    <span class="details" data-photos="ice.png,nikolche.png">
+                      <b>Ice Penov</b>
+                      invented Java in 1876 :P
+                      --- <b>Nikolche  Mihajlovski</b>
+                      is a software engineer who always seeks
+                      improvements of the commonly established processes, practices
+                      and technologies. He has over 16 years of programming
+                      experience in various programming languages, paradigms and
+                      technologies, diverging from experimental research and pet
+                      projects to serious enterprise applications. Nikolche is the
+                      author of JAnnocessor, an innovative technology for
+                      annotation-based code generation and validation, as well as
+                      RDXPL, an experimental multi-paradigm dynamic programming
+                      language.</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>Modern software development methodologies for mobile devices</span>
+                    <span class="details">TBD</span>
+                  </td>
+                  <td class="speaker">
+                    <span>Risto Muchev</span>
+                    <span class="details">TBD</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span9">
+              <h1>Agenda - Lightning Talks</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span9">
+              <table class="table">
+                <tr>
+                  <th>Time</th>
+                  <th>Presentation</th>
+                  <th>Speaker</th>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title"><span>Premature Optimization - is
+                      it normal?</span><span class="details">TBD</span></td>
+                  <td class="speaker"><span>Mite Mitreski</span><span
+                      class="details">TBD</span></td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>Akka - actors in Java</span>
+                    <span class="details">TBD</span>
+                  </td>
+                  <td class="speaker">
+                    <span>Mite Mitreski</span>
+                    <span class="details">TBD</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title">
+                    <span>За програмерцките работи</span>
+                    <span class="details">TBD</span></td>
+                  <td class="speaker">
+                    <span>Горан Пеоски</span>
+                    <span class="details">TBD...</span></td>
+                </tr>
+                <tr>
+                  <td class="time"></td>
+                  <td class="title"><span>Run Java 8 On-line (with <a
+                        class="normal" href="http://www.j8.io">J8.IO</a>)
+                  </span><span class="details">Explore the cool features of Java 8, edit and execute Java 8 code on-line, get ready for the future and have fun!</span></td>
+                  <td class="speaker"><span>Nikolche Mihajlovski</span><span
+                      class="details" data-photos="nikolche.png"><b>Nikolche Mihajlovski</b> is a software
+                      engineer who always seeks improvements of the commonly
+                      established processes, practices and technologies. He has over
+                      16 years of programming experience in various programming
+                      languages, paradigms and technologies, diverging from
+                      experimental research and pet projects to serious enterprise
+                      applications. Nikolche is the author of JAnnocessor, an
+                      innovative technology for annotation-based code generation and
+                      validation, as well as RDXPL, an experimental multi-paradigm
+                      dynamic programming language.</span></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="span9">
+              <h1>Contact Us</h1>
+              <p>
+              Have questions, comments, suggestions? Contact us at <a
+                href="mailto:users@jug.mk">users@jug.mk</a><br/><br/>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="span3">
+          <div id="right">
+            <h4 id="sponsors">Organized by:</h4>
+            <p>
+            <a href="http://jug.mk"> <img class="banner" data-src="holder.js/160x100" alt=""/>
+            </a>
+            </p>
+            <h4 id="sponsors">Sponsors:</h4>
+            <p>
+            <a href="#"> <img class="banner" data-src="holder.js/160x100" alt=""/>
+            </a>
+            </p>
+            <p>
+            <a href="#"> <img class="banner" data-src="holder.js/160x100" alt=""/>
+            </a>
+            </p>
+            <p>
+            <a href="#"> <img class="banner" data-src="holder.js/160x100" alt=""/>
+            </a>
+            </p>
+            <h4 id="supporters">Supporters:</h4>
+            <p>
+            <a href="http://www.j8.io"> <img class="banner" src="j8.jpg" alt="" />
+            </a>
+            </p>
+            <p>
+            <a href="#"> <img class="banner" data-src="holder.js/160x100" alt=""/>
+            </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="holder.js"></script>
+
+    <!-- Modal -->
+    <div id="info" class="modal hide fade" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"
+          aria-hidden="true">×</button>
+        <h3 id="modal-title"></h3>
+        <h4 id="modal-speaker"></h4>
+      </div>
+      <div class="modal-body">
+        <h5 id="talk-details"></h5>
+        <div id="speaker-details"></div>
+      </div>
+    </div>
+
+    <script>
+      $(function() {
+        function bio(photo, text) {
+          return '<div class="media"><img class="media-object pull-left photo img-rounded" src="' + photo + '" /><div class="media-body">' + text + '</div></div>';
+          }
+
+          function rowClick() {
+              var tds = $(this).children();
+              var time = tds.get(0).innerHTML;
+
+              if (!$(tds.get(1)).children().get(0)) return;
+
+              var title1 = $(tds.get(1)).children().get(0).innerHTML;
+              var title2 = $(tds.get(1)).children().get(1).innerHTML;
+
+              var speaker1 = $(tds.get(2)).children().get(0).innerHTML;
+              var speaker2 = $(tds.get(2)).children().get(1).innerHTML;
+              var speakers = speaker2.split("---");
+
+              var photos = $(tds.get(2)).children().get(1).getAttribute("data-photos");
+              photos = photos != null ? photos.split(",") : [''];
+              var two = photos.length == 2 || speakers.length == 2;
+
+              $("#modal-title").html(title1);
+              $("#modal-speaker").html(speaker1);
+
+              $("#talk-details").html(title2);
+
+              var sp1 = bio(photos[0], speakers[0]);
+              var sp2 = two ? bio(photos[1], speakers[1]) : '';
+
+
+              $("#speaker-details").html(sp1 + sp2);
+
+              $("#info").modal('show');
+            }
+
+            $('tr').click(rowClick);
+      });
+          </script>
+
+        </body>
+      </html>
