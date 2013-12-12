@@ -8,13 +8,14 @@
   <meta name="description" content="javaday event site">
   <meta name="author" content="nikolce,mite">
 
-  <!-- build:css(.tmp) styles/main.css -->
-  <link rel="stylesheet" href="styles/main.css">
-  <!-- endbuild -->
 
   <!-- build:css scripts/vendor/vendor.css -->
   <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
 
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144"
@@ -30,10 +31,14 @@
 
 <body>
 
+ <a id="top"></a>
+
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <span class="navbar-brand"><a href="#">Java Day 2013</a> by  <a href="http://jug.mk">JugMK </a> </span>
+      <span class="navbar-brand">
+        <a href="#top" >Java Day 2013</a> by <a href="http://jug.mk">JugMK </a>
+      </span>
     </div>
   </div>
 </div>
@@ -41,65 +46,185 @@
 
 <div class="container">
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="main-title">
-      <h1>Java Day == 22 Dec 2013</h1>
-
-      <h3>Cineplexx, Skopje city mall, 9:00 - 16:00</h3>
-
-      <p>
-        <a class="btn btn-primary btn-lg" href="http://javaday.doattend.com/"> Register </a>
-      </p>
+  <div class="row">
+    <div class="col-md-10">
+      <div class="main-title">
+        <h1>Java Day == 22 Dec 2013#0x02</h1>
+        <h3>Cineplexx, Skopje city mall, 9:30 - 16:30</h3>
+        <p>
+          <a class="btn btn-primary btn-lg" href="http://javaday.doattend.com/"> Register </a>
+        </p>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="row">
-    <h1>Agenda</h1>
-</div>
-
-<div class="row">
-  <div class="col-md-10">
-    <table class="table table-striped table-condensed">
-      <tr>
-        <th>Time</th>
-        <th>Speaker</th>
-        <th>Presentation</th>
-      </tr>
-      <tr>
-        <td class="time">9:30 10:00</td>
-        <td class="title">
-          <span>Registration </span>
-        </td>
-        <td>
-        </td>
-      </tr>
-       <tr>
-        <td class="time">10:15 10:45</td>
-        <td class="speaker">
-          <span>Mite Mitreski</span>
-        </td>
-        <td class="title">
-          <span>Clean and type-safe SQL queries with QueryDSL</span>
-        </td>
-
-      </tr>
-    </table>
-</div>
-
-<div class="col-md-2">
-  <div>
-    <h4>Organizers</h4>
-    <p>
+    <div class="col-md-2">
+      <h4></h4>
+      <p>
       <a href="http://jug.mk">
         <img class="banner" src="images/logo/jugmk.png" alt=""/>
       </a>
-    </p>
+     </p>
+    </div>
+  </div>
+
+  <div class="row">
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-10">
+       <h1>Agenda</h1>
+      <table class="table table-striped table-condensed">
+        <tr>
+          <th>Time</th>
+          <th>Talk</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>9:30 10:00</td>
+          <td>
+            <span>Registration </span>
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>10:00 10:15</td>
+          <td>
+            <a href="#mite">Mite Mitreski</a>
+          </td>
+          <td>
+            <span>Opening JavaDay 2013#0x02</span>
+          </td>
+        </tr>
+        <tr>
+          <td>10:15 10:35</td>
+          <td>
+            <a href="#pance">Pance Cavkovski</a>
+          </td>
+          <td>
+            <span>WebSockets in Java: from n00b to pro</span>
+          </td>
+        </tr>
+        <tr>
+          <td>10:40 11:00</td>
+          <td>
+            <a href="#sinisa">Sinisha Mihalovski</a>
+          </td>
+          <td>
+            <span>Continuous delivery</span>
+          </td>
+        </tr>
+        <tr>
+          <td>11:05 11:50</td>
+          <td>
+            <a href="#ogi">Ognen Ivanovski</a> &amp;<br/>
+            <a href="#goran"> Goran Cvetkovski</a>
+          </td>
+          <td>
+            <span>Wemblin Hub</span>
+          </td>
+        </tr>
+        <tr>
+          <td>11:55 12:15</td>
+          <td>
+             <a href="#mite">Mite Mitreski</a>
+          </td>
+          <td>
+            <span>State of the Lambda</span>
+          </td>
+        </tr>
+        <tr>
+          <td>12:15 13:00</td>
+          <td>
+           Break
+          </td>
+          <td>
+          </td>
+        </tr>
+        <tr>
+          <td>13:00 13:45</td>
+          <td>
+           <a href="#nikolce"> Nikolce Mihalovski</a>
+          </td>
+          <td>
+           OhmDB
+          </td>
+        </tr>
+        <tr>
+          <td>13:50 14:20</td>
+          <td>
+            <a href="#stojan"> Stojan Peshov</a>
+          </td>
+          <td>
+           Automated Testing using Selenium and Jython
+          </td>
+        </tr>
+         <tr>
+          <td>14:25 14:45</td>
+          <td>
+            <a href="#mite">Mite Mitreski</a>
+          </td>
+          <td>
+            Java EE 7 ++
+          </td>
+        </tr>
+       <tr>
+         <td>14:50 15:10</td>
+          <td>
+            <a href="#ali">Ali Lazim</a>
+          </td>
+          <td>
+            Java Into the Cloud
+          </td>
+        </tr>
+        <tr>
+         <td>15:15 15:55</td>
+          <td>
+            <a href="#igor">Igor Stojanoski</a>
+          </td>
+          <td>
+            Java FX
+          </td>
+        </tr>
+        <tr>
+         <td>16:00 16:30</td>
+          <td>
+            <a href="#pance">Pance Cavkovski</a>
+          </td>
+          <td>
+            Micro &amp; Mobile
+          </td>
+        </tr>
+      </table>
+    </div>
+
+<div class="col-md-2">
+  <div>
+
     <h4>Sponsors</h4>
+      <p>
+      <a href="http://www.evernear.com">
+        <img style="width: 150px;height: 80px;"
+         class="banner" src="images/logo/ever_near.jpg" alt="ever_near"/>
+      </a>
+    </p>
+
+    <p>
+      <a href="http://www.noredeus.com">
+        <img style="width: 150px;height: 110px;"
+         class="banner" src="images/logo/noredeus.png" alt=""/>
+      </a>
+    </p>
+
     <p>
       <a href="http://www.netcetera.com">
         <img class="banner" src="images/logo/netcetera.gif" alt=""/>
+      </a>
+    </p>
+    <p>
+      <a href="http://www.tricode.nl">
+        <img style="width:160px;height: 100px;"
+        class="banner" src="images/logo/tricode.jpg" alt=""/>
       </a>
     </p>
 
@@ -109,55 +234,188 @@
       </a>
     </p>
 
-    <p>
-      <a href="http://seavus.com/">
-        <img class="banner" src="images/logo/seavus.jpg" alt=""/>
-      </a>
-    </p>
+  </div>
+  </div>
 
+</div>
+
+<i>  * schedule subject to change</i>
+
+ <div class="row">
+ <br/>
+ <br/>
+ <br/>
+
+ </div>
+
+ <div id="speakers" class="row">
+   <div class="col-md-10">
+     <div class="row panel panel-default">
+         <div class="col-md-4 panel-heading">
+           <img src="images/mitemitreski.jpg" alt="mitemitreski" class="img-thumbnail" />
+         </div>
+         <div class="panel-heading top" >
+           <a id="mite">Mite Mitreski</a>
+         </div>
+          <div class="col-md-8 panel-body">
+           Mite Mitreski currently works at Tricode and has experience in various open source technologies, with primary focus on Java and JVM. He has also worked as a Oracle certifed java trainer in local educational center and  as custom solutions developer at Netcetera as well as GenrepSoft in the past.
+           He is deeply involved in activities sounding Java User Group Macedonia, free and open source software,
+                            open data formats and the open web.
+                            Occasonaly he writes at his <a href="http://blog.mitemitreski.com">blog</a> and <a
+                               href="https://twitter.com/mitemitreski">twitter @mitemitreski</a>
+           Recently he co-author a book titled <a href="http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=mitemitreskic-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1783559284" style="width:120px;height:240px;">HTML 5 Data and Services Cookbook</a>.
+
+     </div>
+    </div>
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+          <img src="images/pance.jpg" alt="pance" class="img-thumbnail" />
+     </div>
+     <div class="panel-heading">
+       <a id="pance">Pance Cavkovski</a>
+     </div>
+     <div class="col-md-8 panel-body">
+         Pance Cavkovski is a software engineer working at Netcetera in Skopje, Macedonia. As part of the team, he has specialized working in Java, Javascript, Flex/ActionScript and .NET technologies. The scopes of the projects he has worked so far have varied from CAD application, simulations and visualizations to finance applications, distributed web systems and infrastructures. He is known for the CodeFu system which he redesigned, developed in most and is one of the head administrators. As of 2009 he is an active member of the Macedonian Java User Group.
+     </div>
+
+    </div>
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+       TBD
+     </div>
+     <div class="panel-heading">
+        <a id="ogi"> Ognen Ivanovski</a>
+     </div>
+     <div class="col-md-8 panel-body">
+     TBD
+     </div>
+    </div>
+
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+        <img src="images/ali.jpg" alt="ali" class="img-thumbnail" />
+     </div>
+     <div class="panel-heading">Ali Lazim</div>
+     <div class="col-md-8 panel-body">
+      Mr. Ali Lazim is presently the Chief Technology Officer of SolidPass. He previously was  the CEO of Crea Technology which was acquired by SolidPass. Prior to founding Crea Technology he led software engineering at Sonera, the leading telecommunications company in Finland at the time. Ali Lazim helped engineer many world firsts at Sonera. Ali Lazim is an expert on data structures and algorithms analysis, software engineering, encryption protocols, and communication protocols.  He has a Master degree in Computer Science and has taught at many universities.
+SolidPass is a leader in next-generation strong authentication. SolidPass protects enterprises and their customers from fraud, digital attacks, or information theft through advanced security software by converting mobile phones, internet browsers, and desktop applications into robust security tokens.
+     </div>
+    </div>
+
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+       TBD
+     </div>
+     <div class="panel-heading">
+       <a id="sinisa">Sinisha Mihalovski</a>
+     </div>
+     <div class="col-md-8 panel-body">
+     TBD
+     </div>
+    </div>
+
+
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+       TBD
+     </div>
+     <div class="panel-heading">
+       <a id="goran"> Goran Cvetkovski</a>
+     </div>
+     <div class="col-md-8 panel-body">
+     TBD
+     </div>
+    </div>
+
+
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+         <img src="images/nikolche.png" alt="pance" class="img-thumbnail" />
+     </div>
+     <div class="panel-heading">
+       <a id="nikolce">Nikolce Mihalovski</a>
+      </div>
+     <div class="col-md-8 panel-body">
+     Nikolche Mihajlovski is a software engineer who always seeks improvements of the commonly established processes, practices and technologies. He has over 16 years of programming experience in various programming languages, paradigms and technologies, diverging from experimental research and pet projects to serious enterprise applications. Nikolche is the author of JAnnocessor, an innovative technology for annotation-based code generation and validation, as well as RDXPL, an experimental multi-paradigm dynamic programming language.
+     </div>
+    </div>
+
+
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+       TBD
+     </div>
+     <div class="panel-heading">
+       <a id="stojan">Stojan Peshov</a>
+     </div>
+     <div class="col-md-8 panel-body">
+     TBD
+     </div>
+    </div>
+
+    <div class="row panel panel-default">
+
+     <div class="col-md-4 panel-heading">
+       TBD
+     </div>
+     <div class="panel-heading">
+       <a id="igor">
+        Igor Stojanovski
+       </a>
+     </div>
+     <div class="col-md-8 panel-body">
+     TBD
+     </div>
+    </div>
+
+
+
+    <!-- end inner row -->
+   </div>
+   <div class="col-md-2">
+    <h4 id="supporters">Supporters</h4>
     <p>
       <a href="http://vuact.com/">
         <img class="banner" src="images/logo/vuact.jpg" alt=""/>
       </a>
     </p>
-    <h4 id="supporters">Supporters:</h4>
     <p>
-      <a href="http://www.j8.io">
-        <img class="banner" src="images/logo/j8.jpg" alt=""/>
+      <a href="http://jetbrains.com/">
+        <img style="width:150px;"
+        class="banner" src="images/logo/logo_jetbrains.gif" alt=""/>
       </a>
     </p>
-  </div>
-  </div>
-</div>
-</div>
-</div>
-<div class="container">
- <div class="row">
- <div class="col-md-4">
-   <img src="images/mitemitreski.jpg" alt="mitemitreski" class="img-thumbnail" />
- </div>
-  <div class="col-md-8">
-   Mite Mitreski currently works at Netcetera and has experience in various open source technologies, with primary focus on Java and JVM. He has also worked as a Oracle certifed java trainer in local
-                    educational center and  as custom solutions developer at GenrepSoft in the past.
-                    Deeply involved in activities sounding Java User Group Macedonia, free and open source software,
-                    open data formats and the open web.
-                    Occasonaly he writes at his <a href="http://blog.mitemitreski.com">blog</a> and <a
-                       href="https://twitter.com/mitemitreski">twitter @mitemitreski</a>
 
- </div>
-
-</div>
-
-
-</div>
-
-<div>
-    <p>
-      Have questions, comments, suggestions? Contact us at
-      <a href="mailto:users@jug.mk">users@jug.mk</a>
+     <p>
+      <a href="http://jrebel.com/">
+        <img style="width:150px;"
+        class="banner" src="images/logo/jrebel.png" alt=""/>
+      </a>
     </p>
 
+   </div>
 </div>
+
+</div>
+</div>
+
+<footer class="container">
+   <div>
+    <em>
+      Have questions, comments, suggestions? Contact us at
+      <a href="mailto:users@jug.mk">users@jug.mk</a>
+    </em>
+
+</div>
+</footer>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -182,5 +440,9 @@
 <!-- endbower -->
 <!-- endbuild -->
 
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
 </body>
 </html>
