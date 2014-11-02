@@ -2,8 +2,9 @@
   "name": "test2",
   "version": "0.0.0",
   "dependencies": {
-    "bootstrap": "~3.0.3",
-    "jquery": "~1.10.2"
+    "bootstrap": "~3.3.0",
+    "jquery": "~1.10.2",
+    "bootstrap-social" :"~4.8.0"
   },
   "devDependencies": {}
 }
